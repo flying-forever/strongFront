@@ -1,13 +1,20 @@
-<script setup>
-  
+<script>
+import axios from 'axios'
+import oauth from './components/oauth.vue'
+
+export default {
+  components: {
+    oauth
+  }
+}
 </script>
 
+
 <template>
-  <h1>StrongFront</h1>
+  <oauth></oauth>
 </template>
 
+
 <style scoped>
-.h {
-  color: cadetblue;
-}
+
 </style>

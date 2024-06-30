@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url))  // 文件路径别名，如可用'@/components/HelloWorld.vue';
     }
   }
 })
